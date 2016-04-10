@@ -1,0 +1,287 @@
+.column img { float: left; margin-right: 20px; }
+
+.logo{
+	font-size: 40px;
+}
+
+/*****************HEADER******************/
+
+.site-header{
+	background-color: black;
+	width:100%;
+	font-family: 'Roboto Slab', serif;
+
+}
+
+.site-header a{
+	text-decoration: none;
+	color:white;
+	font-family: 'Roboto Slab', serif;
+}
+.site-header h1{
+
+	color:white;
+}
+
+.main-navigation{
+	margin-top:22px;
+	float:right;
+	margin-left:20px;
+}
+
+.main-navigation ul{
+	margin: 0 auto;
+	padding:0;
+	margin-top:21px;
+
+
+}
+
+.main-navigation li{
+	display:inline-block;
+	font-size: 16px;
+	color:white;
+
+}
+
+.main-navigation a{
+	padding:20px;
+	display: block;
+	text-decoration: none;
+	color:white;
+}
+
+.main-navigation a:hover{
+
+	border-bottom: 4px solid red;
+	color:gray;
+	padding-bottom:18px;
+
+}
+
+
+/*******************INTRO**********************/
+.intro{
+	padding:85px 0;
+	background-image: url("../img/people-acting-resize.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color:black;
+	font-family: 'Roboto Slab', serif;
+}
+
+.intro h1{
+	font-size: 40px;
+	font-family: 'Roboto Slab', serif;
+
+}
+
+.intro button[type="submit"]{
+	width: 150px;
+    height: 60px;
+	border:2px solid white;
+	color:white;
+	background-color: black;
+}
+
+.intro button[type="submit"]:hover{
+	background-color: red;	
+	opacity:0.7;
+}
+.intro button>a{
+	text-decoration: none;
+	color:white;
+}
+
+.glavniNaslov, .oPredstavi{
+	color:white;
+	text-decoration: none;
+}
+
+.intro a{
+	display:block;
+	width:100%;
+}
+
+
+.intro .row .column-6{
+	float:right;
+	margin-right:-5%;
+	margin-top:18%;
+
+}
+
+
+
+/*******************JEZICI*********************/
+.lang{
+	float:right;
+}
+
+.lang li{
+	display:inline-block;
+
+}
+
+.lang ul li:first-child{
+	padding-right:6px;
+	border-right: 1px solid white;
+}
+
+.lang a:hover{
+	color:red;
+}
+
+/***********SLJEDEĆE PREDSTAVE - INDEX************/
+.slijedi h2{
+	margin-top:50px;
+	font-family: 'Roboto Slab', serif;
+}
+
+.grupaNaslov{
+	margin-top:100%;
+	margin-bottom:30%;
+	font-family: 'Roboto Slab', serif;
+}
+
+.grupaNaslov a{
+	text-decoration: none;
+	color:black;
+}
+
+.grupaNaslov a:hover{
+	text-decoration: none;
+	color:red;
+}
+
+.imageGrupa:hover, .slika:hover{
+	opacity:0.7;
+	transition: all 0.2s ease-in-out;
+	background-color: red;
+}
+
+
+
+/**********************FOOTER*********************/
+.site-footer{
+	padding:40px 0;
+	background-color: black;
+	color:white;
+	font-family: 'Roboto Slab', serif;
+}
+
+.site-footer a{
+	text-decoration: none;
+	color:white;
+}
+
+ .ikone i{
+	font-size: 30px;
+}
+
+.ikone a{
+	color:white;
+}
+
+.ikone a:hover, .site-footer a:hover{
+	color:red;
+}
+
+/***********SECOND NAV (HOME -> x)***************/
+.navigiraj{
+	padding-top:40px;
+	
+}
+
+.navigiraj a{
+	text-decoration: none;
+	font-size:1em;
+	color:red;
+}
+
+.navigiraj a:hover{
+	text-decoration: none;
+	font-size:1em;
+	color:black;
+}
+
+/******************FONT NA SVE********************/
+.body-onama, .cjenik, .popusti, .introPredstave, .oPredstaviDetails, .main, .glumci{
+		font-family: 'Roboto Slab', serif;
+}
+
+
+/*********************CJENIK**********************/
+
+.sljedecePred{
+	margin-left:60px;
+
+}
+
+.sljedecePred2{
+	float:right;
+}
+
+.sljedecePred a, .sljedecePred2 a{
+	text-decoration: none;
+	color:black;
+}
+
+.sljedecePred a:hover, .sljedecePred2 a:hover{
+	text-decoration: none;
+	color:red;
+}
+
+
+/*******************PREDSTAVE******************/
+
+.date{
+	margin-top:50px;
+}
+
+.introPredstave a{
+	text-decoration: none;
+}
+
+
+.predstaveLink a{
+	color:black;
+}
+
+.predstaveLink>p{
+	font-size:18px;
+}
+.introPredstave a:hover{
+	text-decoration: none;
+	color:red;
+}
+
+
+
+/**************DETALJI O PREDSTAVI***************/
+.grupaPredstava{
+	margin-top:-17px;
+}
+
+.grupaPredstava>h2{
+	padding-top:120px;
+}
+
+.grupaPredstava>p{
+	font-size: 18px;
+}
+
+.glumci .column-12>p{
+	margin-left:-10px;
+}
+/****************O NAMA *************************/
+
+iframe{
+	float:right;
+	margin-top:20px;
+}
+
+.kakomislis400 img{
+	float:right;
+}
+
