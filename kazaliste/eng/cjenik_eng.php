@@ -89,7 +89,7 @@
                <div class="sljedecePred2">
                   <h1>Next performances:</h1>
                   <?php
-                     $dbc= mysqli_connect('localhost', 'root','21081994', 'theatron') or die('Error connecting to MySQL.');
+                     $dbc= mysqli_connect('localhost', 'root','root', 'theatron') or die('Error connecting to MySQL.');
                      
                      $query= "SELECT predstave.id, slike.slika140, predstave_t.naslov_t, predstave.datum, predstave.sati
                               from predstave_t

@@ -57,7 +57,7 @@
                   }
                
                   
-              $dbc= mysqli_connect('localhost', 'root','21081994', 'theatron') or die('Error connecting to MySQL.');
+              $dbc= mysqli_connect('localhost', 'root','root', 'theatron') or die('Error connecting to MySQL.');
                
               $query= "SELECT * from predstave 
                        join redatelj on predstave.idRedatelja=redatelj.id

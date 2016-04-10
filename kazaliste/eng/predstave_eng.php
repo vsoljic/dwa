@@ -57,7 +57,7 @@
 
       <section class="introPredstave">
          <?php
-            $dbc= mysqli_connect('localhost', 'root','21081994', 'theatron') or die('Error connecting to MySQL.');
+            $dbc= mysqli_connect('localhost', 'root','root', 'theatron') or die('Error connecting to MySQL.');
             
             $query= "SELECT predstave.id, slike.slika460, predstave_t.naslov_t, predstave.datum, 
                      predstave.sati, redatelj.ime, redatelj.prezime 

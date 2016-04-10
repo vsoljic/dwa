@@ -48,7 +48,7 @@
          <div class="column column-6">
             <div class="glavniNaslov">
                <?php
-                  $dbc= mysqli_connect('localhost', 'root','21081994', 'theatron') or die('Error connecting to MySQL.');
+                  $dbc= mysqli_connect('localhost', 'root','root', 'theatron') or die('Error connecting to MySQL.');
                   
                   $query= "SELECT  predstave.id, naslov_t, redatelj.ime, redatelj.prezime from predstave_t
                           join predstave on predstave.id=predstave_t.idPredstave 
